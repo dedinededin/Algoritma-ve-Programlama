@@ -3,13 +3,23 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <title>Java 101.01</title>
+      <title>Java Eğitimi</title>
       <!-- Don't forget to add your metadata here -->
       <link rel='stylesheet' href='css/style.min.css' />
    </head>
-   <body>
-      <!-- Hero unit -->
-      <div class="hero">
+	<!-- Hero(extended) navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Java 101</a>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- Hero unit -->
+	<div class="hero">
          <div class="hero__overlay hero__overlay--gradient"></div>
          <div class="hero__mask"></div>
          <div class="hero__inner">
@@ -17,56 +27,74 @@
                <div class="hero__content">
                   <div class="hero__content__inner" id='navConverter'>
                      <h1 class="hero__title">Java 101.01 Eğitimine hoş geldin.</h1>
-                     <p class="hero__text">İlk dersimizde kullanacağımız programları sizler için zip dosyası haline getirdim. Ders sırasında indirmekle zaman kaybetmemeniz için bilgisayarınıza indirmenizi tavsiye ediyorum. Kurulumu ders sırasında birlikte yapacağız.</p>
-                     <a href="https://drive.google.com/open?id=1RQJF0IV9qCnGn__09ZvpYdzaNbTxcv06" class="button button__accent">Windows için İndir</a>
-                     <a href="https://drive.google.com/open?id=1sslj-553R8p5i5g7yxKUDsBQwBlXvWrf" class="button button__accent">MacOS için İndir</a>
+                     <p class="hero__text">Eğitimimizin ilk dersini geride bıraktık. Kurulum dosyalarına ve ilk derste yaptığımız alıştırmalara aşağıdan ulaşabilirsiniz.</p>
+                     <a href="https://drive.google.com/open?id=163dedOwu2exPDqrsrNpGLAEdc2TUA4J4" class="button button__accent">Windows için İndir</a>
+                     <a href="https://drive.google.com/open?id=1sslj-553R8p5i5g7yxKUDsBQwBlXvWrf" class="button button__accent">MacOS için İndir</a><br>
+										 <a href="https://drive.google.com/open?id=1oKI3FQj3yb7WwAGpsRVSSyqJu-gXFuRH" class="button button__accent">Alıştırmaları İndir</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-       <!--
-      <div class="hero__sub">
-         <span id="scrollToNext" class="scroll">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-               <path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/>
-            </svg>
-         </span>
-      </div>
-     
-      <div class="steps landing__section">
-         <div class="container">
-            <h2>Who can use Evie?</h2>
-            <p>Here's who we can think of, but surely creative people will surprise us.</p>
-         </div>
-         <div class="container">
-            <div class="steps__inner">
-               <div class="step">
-                  <div class="step__media">
-                     <img src="./images/undraw_designer.svg" class="step__image">
-                  </div>
-                  <h4>Programmers</h4>
-                  <p class="step__text">A landing page for your open source projects. Present your solution, easily create docs.</p>
-               </div>
-               <div class="step">
-                  <div class="step__media">
-                     <img src="./images/undraw_responsive.svg" class="step__image">
-                  </div>
-                  <h4>Designers</h4>
-                  <p class="step__text">A website for your own freebies. Let the world download and use your artwork.</p>
-               </div>
-               <div class="step">
-                  <div class="step__media">
-                     <img src="./images/undraw_creation.svg" class="step__image">
-                  </div>
-                  <h4>Makers</h4>
-                  <p class="step__text">A great starting point for your web application. Focus on your idea and execution.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-      
-       -->
-      <script src='js/app.min.js'></script>
-   </body>
+	<div class="hero__sub">
+		<span id="scrollToNext" class="scroll">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+		</span>
+	</div>
+	<!-- Steps -->
+	<div class="steps landing__section">
+		<div class="container">
+			<h2>Neden yazılım öğrenmeliyiz?</h2>
+			<p>Takdir edersiniz ki 2018 yılında yaşıyoruz ve elektroniğin dokunmadığı alan kalmadı. Elektronik demek aynı zamanda yazılım demek. Mesela siz bir asansörü çağırmak için tuşa bastığınızda aslında arkaplanda bir yazılımın çalıştığını biliyor muydunuz?</p>
+		</div>
+		<div class="container">
+			<div class="steps__inner">
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_designer.svg" class="step__image">
+					</div>
+					<h4>Bilgisayar mühendisliği okumuyorum, yine de eğitimlerinize gelebilir miyim?</h4>
+					<p class="step__text">Tabii ki, yazılım öğrenmek için hangi bölümde okuyor olduğunuzun bir önemi yok. Yeni fikirlere açık olmanız yeterli.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_creation.svg" class="step__image">
+					</div>
+					<h4>Hangi yazılım dillerini anlatacaksınız?</h4>
+					<p class="step__text">Şimdilik Java üzerinden algoritma temellerini atacağız. Farklı bir yazılım diline geçtiğimiz zaman duyurusunu tekrar yapacağız.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Call To Action -->
+	<div class="cta cta--reverse">
+		<div class="container">
+			<div class="cta__inner">
+				<h2 class="cta__title">Yaptığımız çalışmalardan haberdar olmak ister miydiniz?</h2>
+				<p class="cta__sub cta__sub--center">Eğer cevabınız evet ise, bizleri Instagram sayfamızdan takip edebilirsiniz.</p>
+				<a href="https://instagram.com/bilgibilisimkulubu" class="button button__accent">
+					<img src="./images/instalogo.png" width="32" height="32" class="step__image"><p>@bilgibilisimkulubu</p></a>
+				<a href="https://instagram.com/bilgisoftware" class="button button__accent">
+					<img src="./images/instalogo.png" width="32" height="32" class="step__image"><p>@bilgisoftware</p></a>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer footer--dark">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="https://instagram.com/ibrahimm.dogann" class="footer__textLogo">Eğitmen: İbrahim Doğan</a>
+				<p>Bu eğitim İstanbul Bilgi Üniversitesi bünyesi altında bulunan Bilişim Kulübü ve Bilgi Software kulüplerinin ortak çalışması ile hazırlanmışır.</p>
+				<div class="footer__data">
+
+
+
+			</div>
+		</div>
+	</div>
+<script src='js/app.min.js'></script>
+</body>
 </html>
